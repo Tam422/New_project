@@ -12,7 +12,7 @@ locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
 
 def main():
 
-    path = './One_year_compiled.csv'
+    path = './One_year_data.csv'
     @st.cache_data (persist=True)
     def export_data(path, nRowsRead=None):
         df = pd.read_csv(path, delimiter=',', nrows = nRowsRead)
