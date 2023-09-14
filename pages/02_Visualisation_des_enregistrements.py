@@ -7,8 +7,8 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import calendar
-import locale
-locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
+#import locale
+#locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
 
 def main():
 
