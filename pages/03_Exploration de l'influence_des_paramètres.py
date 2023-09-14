@@ -20,7 +20,7 @@ def main():
     st.write("Dans cette partie nous allons explorer notre jeu de données et tenter de répondre au questions suivantes:")
     st.write("Existe-t-il des relations entre les paramètres  enregistrés?")
     st.write("Dans quelle mesure les modes de fonctionnement de la Fardeleuse influencent-ils ces paramètres? ")
-    path = '/Users/tam/code/Tam422/Projet_MP/Local/One_year_compiled.csv'
+    path = './One_year_compiled.csv'
     @st.cache_data (persist=True)
     def export_data(path, nRowsRead=None):
         df = pd.read_csv(path, delimiter=',', nrows = nRowsRead)
